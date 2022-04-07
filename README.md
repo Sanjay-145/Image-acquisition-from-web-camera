@@ -28,12 +28,11 @@ Use imshow to save the image.
 End the program and close the output video windows by pressing 'q'.
 
 ## Program:
-``` Python
-### Developed By:
-### Register No:
+### Developed By:Sanjay p
+### Register No:212220230042
 
 ## i) Write the frame as JPG file
-
+```
 import cv2
 videoCaptureObject=cv2.VideoCapture(0)
 while(True):
@@ -43,10 +42,10 @@ while(True):
 videoCaptureObject.release()
 cv2.destroyAllWindows()
 
-
+```
 
 ## ii) Display the video
-
+```
 import cv2
 import numpy as np
 cap=cv2.VideoCapture(0)
@@ -58,9 +57,11 @@ while True:
 cap.release()
 cap.destroyAllWindows()
 
+```
 
 ## iii) Display the video by resizing the window
 
+```
 import cv2
 import numpy as np
 cap=cv2.VideoCapture(0)
@@ -80,10 +81,11 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 
+```
 
 
 ## iv) Rotate and display the video
-
+```
 import cv2
 import numpy as np
 cap=cv2.VideoCapture(0)
@@ -103,19 +105,17 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 
-
-
-
-
-
-
 ```
+
+
+
+
+
+
 ## Output
 
 ### i) Write the frame as JPG image
-</br>
-</br>
-
+![image](https://user-images.githubusercontent.com/75235426/162229113-e59e4044-ff22-4590-8938-6b821e4c0faa.png)
 
 ### ii) Display the video
 ![1](https://user-images.githubusercontent.com/75235426/162224808-4d179b92-ae36-4781-9111-5ce207d7ebc6.png)
